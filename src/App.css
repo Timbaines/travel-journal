@@ -1,0 +1,88 @@
+#root {
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #2B283A;
+}
+
+/***** TYPOGRAPHY | *****/
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 11px;
+}
+
+/***** COMPONENT | HEADER.JSX *****/
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 0;
+}
+
+.logo {
+  width: 280px;
+}
+
+/***** COMPONENT | CARD.JSX *****/
+.cards-list {
+  padding: 30px;
+}
+
+.card {
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 18px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.card-entry {
+  margin: 18px auto;
+}
+
+.card-image {
+  width: 150px;
+  border-radius: 7px;
+  margin-right: 17px;
+}
+
+.card-subtitle {
+  display: flex;
+  align-items: center;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+
+.card-location {
+  margin: 0;
+}
+
+.card-date {
+  margin-bottom: 0;
+}
+
+a {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 10px;
+}
+
+.card-icon {
+  color: #F55A5A;
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.card-description {
+  line-height: 1.2rem;
+}
+
+.card-geo {
+  color: #918E9B;
+  cursor: pointer;
+}
